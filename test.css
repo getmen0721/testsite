@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+background-image:url(img/skybulue.jpg)
+}
+body{
+    height: 100%;
+    font-family: cursive;
+    
+}
+#container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    min-height: 100%;
+    padding: 0 10px;
+}
+#header {
+   margin-bottom: 15px;
+}
+#menu {
+   margin-bottom: 15px;
+    overflow: hidden;
+}
+#main {
+   overflow: hidden;
+    
+      margin-bottom: 15px;
+    
+}
+#contents {
+   float: left;
+    width: 400px;
+   
+
+}
+#sidebar {
+   float: right;
+    width: 180px;
+   
+}
+
+#footer {
+   
+    font-size:  12px;
+    color: darkgray;
+    text-align: center;
+    border-top: 1px solid black;
+    
+}
+#menu ul>li {
+    float: left;
+    width: 100px;
+    font-size: 13px;
+    text-align: center;
+    padding:  4px;
+    background: #ccc;
+    margin-right: 10px;
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5) ;
+    
+    
+}
+#menu ul>li:hover {
+    background: #ddd;
+}
+#menu ul>li>a {
+    text-decoration: none;
+    display: block;
+}
+h2, h3 {
+    font-weight: bold;
+}
+h2{
+    font-size: 16px;
+    border-left: 5px solid #ccc;
+    padding: 3px 0 3px 10px;
+    margin-bottom: 10px;
+    
+}
+
+h3{
+    border-bottom:  1px solid #ccc;
+    padding:  3px 0;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 15px;
+}
+ul.list {
+    margin-bottom: 15px;
+    
+}
+ul.list>li {
+  overflow:hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+    border-bottom:  1px dotted rgba(200,200,200,1);
+    
+    
+}
+ul.list>li>img {
+    margin-bottom: 15px;
+    float: left;
+    width: 60px;
+}
+
+ul.list>li>p {
+    margin-left: 70px;
+    font-size: 15px;
+}
+ul.list>li:last-child {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.sample {
+    float: right;
+    width: 76px ;
+    margin-left: 10px;
+    position: relative;
+    
+    
+}
+.sample>p{
+    font-size: 10px;
+    
+}
+.sample>img {
+     padding: : 2px;
+    background:  #fff;
+    border: 1px solid #ccc;
+    
+}
+.badge {
+    background: red;
+    color: white;
+    font-size: 10px;
+    padding:  2px 4px 3px;
+    position: absolute;
+    top :-5px;
+    right:2px;
+    
+}
+
+
+
+
+
+
+
