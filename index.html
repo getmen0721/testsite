@@ -4,6 +4,18 @@
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
     <link rel="stylesheet" href="test.css">
     <meta charset="utf-8">
+    <script type="text/javascript">
+
+function jikoku() {
+    dd = new Date();
+    document.F1.T1.value = dd.toLocaleString();
+    window.setTimeout("jikoku()", 1000);
+}
+
+</script>
+    	
+<script src="phina.min.js"></script>
+
     <title>はじめてのHTML！</title>
 </head>
     
@@ -44,6 +56,38 @@
                     
                     あああ
                     こんにちは！こんばんわ！こんにちは！こんばんわ！</p>
+                <body onload="jikoku()">
+<form name="F1" action="#">
+<input type="text" name="T1" size=50>
+</form>
+                    
+                    
+ <script>
+     phina.globalize();
+ 
+// MainScene を定義
+phina.define('MainScene', {
+    superClass: 'CanvasScene',
+    init: function() {
+        this.superInit();
+        this.backgroundColor = '#185674'; // 任意の背景色
+    }
+});
+ 
+// メインの処理
+phina.main(function() {
+    // アプリケーションを生成
+    var app = GameApp({
+        startLabel: 'main'
+    });
+ 
+    app.run();
+});
+
+                    
+                    </script>
+
+
                 <h3>プレイヤー達の喜びの声</h3>
                 <ul class="list">
                     <li>
@@ -72,6 +116,25 @@
                 <p>こんにちは！こんばんわ！こんにち</p>
                 <p>！こんばんわ！こんにちは！こんばんわ！</p>
                 
+                <ul class="submenu">
+                    
+                    <li>
+                    
+                        </li>
+                    
+                    <li>
+                    
+                        </li>
+                    
+                    <li>
+                    
+                        </li>
+                        
+                    <li>
+                    
+                        </li>
+                    
+                </ul>
                 
             </div>
             
